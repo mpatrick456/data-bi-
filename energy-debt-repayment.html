@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 04 | Energy Debt Repayment Analysis</title>
+  <meta name="description" content="Energy debt repayment Power BI dashboard portfolio case study.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap">
+      <a class="brand" href="index.html">P M · BI Portfolio</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="learning-analytics.html">Project 03</a>
+        <a href="docs/energy-debt-case-study.md">Case study file</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="eyebrow">Project 04 · Energy Debt Repayment Analysis</p>
+      <h1>Dashboard for debt exposure, repayment behaviour and operational prioritisation.</h1>
+      <p class="lead">
+        This Power BI case study shows how credit management data can be used to understand repayment risk,
+        monitor debt recovery performance and help teams prioritise follow-up actions.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://app.powerbi.com/view?r=eyJrIjoiMWI4ODUzMjItYzc0Yi00YWRlLWExNWYtZGU5YWZjZDY3NDVkIiwidCI6IjI1Y2UwMjYxLWJiZDYtNDljZC1hMWUyLTU0MjYwODg2ZDE1OSJ9" target="_blank" rel="noopener">Open report in Power BI</a>
+        <a class="button" href="index.html#projects">Back to projects</a>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="report-frame">
+        <iframe title="Energy Debt Repayment Analysis" src="https://app.powerbi.com/view?r=eyJrIjoiMWI4ODUzMjItYzc0Yi00YWRlLWExNWYtZGU5YWZjZDY3NDVkIiwidCI6IjI1Y2UwMjYxLWJiZDYtNDljZC1hMWUyLTU0MjYwODg2ZDE1OSJ9" frameborder="0" allowfullscreen="true"></iframe>
+      </div>
+      <p class="note">If the embedded report is blocked by the browser, use the button above to open it directly in Power BI.</p>
+    </section>
+
+    <section class="wrap section split">
+      <div>
+        <p class="eyebrow">Background</p>
+        <h2>Why this dashboard matters</h2>
+        <p>
+          Credit management teams need more than a static debt balance report. They need to know which accounts
+          are improving, which repayment arrangements are weakening and where intervention is most likely to reduce risk.
+        </p>
+        <p>
+          This case study presents a Power BI dashboard as a practical work tool for reviewing debt exposure,
+          repayment performance, overdue behaviour and customer segmentation. The purpose is to support weekly
+          decision-making and targeted follow-up.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Business users</h3>
+        <ul class="check-list">
+          <li>Credit management teams</li>
+          <li>Collections and debt recovery operations</li>
+          <li>Finance reporting users</li>
+          <li>Customer operations managers</li>
+          <li>Business analysts supporting operational applications</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="section-heading">
+        <p class="eyebrow">Problem statement</p>
+        <h2>From debt reporting to repayment action</h2>
+      </div>
+      <div class="method-grid">
+        <article>
+          <h3>Debt exposure</h3>
+          <p>Understand how debt is distributed by customer type, risk segment, balance band or payment behaviour.</p>
+        </article>
+        <article>
+          <h3>Repayment performance</h3>
+          <p>Compare expected and actual repayment progress to highlight weakening plans and missed instalments.</p>
+        </article>
+        <article>
+          <h3>Operational follow-up</h3>
+          <p>Create a prioritised view of accounts needing action, including high-balance accounts and broken arrangements.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>Dashboard storytelling structure</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Page / area</th>
+              <th>Purpose</th>
+              <th>Example insight</th>
+              <th>Business action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Portfolio overview</td>
+              <td>Summarise total debt, account volume and key risk indicators.</td>
+              <td>Debt balance trend, account count, average balance and repayment status.</td>
+              <td>Understand overall exposure and management focus.</td>
+            </tr>
+            <tr>
+              <td>Repayment behaviour</td>
+              <td>Track whether repayment plans are on track or falling behind.</td>
+              <td>Paid versus expected, missed payments, underpayment and broken arrangements.</td>
+              <td>Prioritise intervention before debt becomes harder to recover.</td>
+            </tr>
+            <tr>
+              <td>Customer segmentation</td>
+              <td>Group accounts by risk, balance, payment type or customer characteristics.</td>
+              <td>Segments with high balances and weak repayment behaviour.</td>
+              <td>Tailor contact strategy and collection treatment.</td>
+            </tr>
+            <tr>
+              <td>Exception follow-up</td>
+              <td>Provide a practical work queue for the credit team.</td>
+              <td>High balance, overdue, missed instalment and repeated failure cases.</td>
+              <td>Create weekly action lists and track outcomes.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="wrap section split reverse">
+      <div class="panel">
+        <h3>Measures and analysis ideas</h3>
+        <ul class="check-list">
+          <li>Total outstanding debt</li>
+          <li>Average debt balance</li>
+          <li>Repayment plan completion %</li>
+          <li>Paid versus expected amount</li>
+          <li>Missed payment count</li>
+          <li>Overdue balance</li>
+          <li>Ageing bucket</li>
+          <li>Priority risk category</li>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">Technical approach</p>
+        <h2>How the dashboard would be built</h2>
+        <p>
+          The data model can use repayment transactions, account balances, customer attributes and date dimensions.
+          Power Query can clean and standardise account records, while DAX measures calculate repayment performance,
+          arrears ageing, risk categories and trend movement.
+        </p>
+        <p>
+          The report is designed to show business impact: reducing manual checking, improving prioritisation and
+          helping teams focus on accounts where action is most valuable.
+        </p>
+      </div>
+    </section>
+
+    <section class="wrap section callout">
+      <h2>Recommendations from the analysis</h2>
+      <ol>
+        <li>Create a weekly exception list for high-balance accounts with missed instalments.</li>
+        <li>Separate customers who are paying slowly from customers who have stopped paying.</li>
+        <li>Review plan affordability when repeated underpayment appears.</li>
+        <li>Use segment and payment method to tailor contact strategy.</li>
+        <li>Track post-contact outcomes to measure whether interventions work.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>© 2026 P M · <a href="index.html">Back to portfolio home</a></p>
+  </footer>
+</body>
+</html>
